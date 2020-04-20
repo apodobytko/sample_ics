@@ -18,6 +18,8 @@ def main():
     with open("out.ics", "w") as f:
         f.write(str(c))
 
+    print(f"Saved new calendar to `{OUT_PATH}``")
+
 
 if __name__ == "__main__":
     main()
