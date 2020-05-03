@@ -1,10 +1,10 @@
 on:
   push:
     branches:
-      - master
+      - xmaster
 
-  schedule:
-    - cron: '0 0 * * *' # Once per day at midnight
+  # schedule:
+  #  - cron: '0 0 * * *' # Once per day at midnight
 
 jobs:
   build:
